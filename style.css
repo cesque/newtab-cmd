@@ -1,0 +1,47 @@
+body {
+  background: #1e1e1e;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+#container {
+  margin: 100px;
+}
+.line {
+  width: 100%;
+  color: #fff;
+  font-size: large;
+  vertical-align: middle;
+  height: 25px;
+}
+.line p {
+  margin: 0;
+  margin-right: 10px;
+  float: left;
+}
+.line input {
+  border: none;
+  background: #1e1e1e;
+  width: 80%;
+  color: transparent;
+  text-shadow: 0 0 0 #fff;
+  font-size: large;
+  float: left;
+  margin: 0;
+  padding: 0;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+.line input:focus {
+  outline: none;
+}
+.line .response {
+  margin: 0;
+  color: #ccc;
+  font-size: large;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
